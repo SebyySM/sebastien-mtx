@@ -1,10 +1,12 @@
 .topnav {
-    margin: 0;
     overflow: hidden;
     background-color: #333;
+  }
+  #myTopnav{
+    margin: 0px;
     align-content: center;
   }
-  
+
   .topnav a {
     float: left;
     display: block;
