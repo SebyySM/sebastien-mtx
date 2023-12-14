@@ -25,6 +25,11 @@
   
   .topnav .icon {
     display: none;
+    background-color: #333;
+  }
+  .topnav .icon:hover{
+    background-color: #333;
+    color: white;
   }
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
