@@ -1,5 +1,6 @@
 .topnav{
   background-color: #333;
+  padding: auto;
   position: fixed;
   text-align: center;
   width: 100%;
@@ -34,7 +35,7 @@
   color: #0000ff;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -42,7 +43,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
